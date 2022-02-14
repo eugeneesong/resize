@@ -6,10 +6,26 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-latest.js"
     ></script>
+    <audio id ="violinmusic" src= "https://lucmelody.github.io/audio/gunshotawp.mp3">  
+    </audio>
   </head>
   <body>
-    <!--   <div class="header">
-    <p>
+    <!-- <div class="header"> -->
+    <div id="note">
+      hey! try slowly adjusting the browser height and width 💖 <button id="close" class="notification__close">
+        <svg viewBox="0 0 352 512" width="7" title="times">
+          <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+      </button></a>
+    </div>
+    <!-- <div id="note2">
+      hey! try slowly adjusting the browser size 💖 <button id="close" class="notification__close">
+        <svg viewBox="0 0 352 512" width="7" title="times">
+          <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+      </button></a>
+    </div> -->
+    <!-- <p>
       date: jan31
     </p>
     <p>
@@ -17,10 +33,20 @@
     </p>
     <p>
       by eugene song
-    </p>
-	</div> -->
+    </p> -->
+    <!-- </div> -->
     <div class="wrapper">
-      <div class="line line1">
+      <!-- <div class="line line1" data-hover="line">
+        <span class="circle circle-top"></span>
+        <div class="dotted">
+          <span class="dot dot-top"></span>
+          <span class="dot dot-middle-top"></span>
+          <span class="dot dot-middle-bottom"></span>
+          <span class="dot dot-bottom"></span>
+        </div>
+        <span class="circle circle-bottom"></span>
+      </div> -->
+      <div class="line line2" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -30,7 +56,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line2">
+      <div class="line line3" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -40,7 +66,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line3">
+      <div class="line line4" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -50,7 +76,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line4">
+      <div class="line line5" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -60,7 +86,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line5">
+      <div class="line line6" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -70,7 +96,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line6">
+      <div class="line line7" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -80,7 +106,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line7">
+      <div class="line line8" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -90,7 +116,7 @@
         </div>
         <span class="circle circle-bottom"></span>
       </div>
-      <div class="line line8">
+      <!-- <div class="line line9" data-hover="line">
         <span class="circle circle-top"></span>
         <div class="dotted">
           <span class="dot dot-top"></span>
@@ -99,55 +125,27 @@
           <span class="dot dot-bottom"></span>
         </div>
         <span class="circle circle-bottom"></span>
-      </div>
-      <div class="line line9">
-        <span class="circle circle-top"></span>
-        <div class="dotted">
-          <span class="dot dot-top"></span>
-          <span class="dot dot-middle-top"></span>
-          <span class="dot dot-middle-bottom"></span>
-          <span class="dot dot-bottom"></span>
-        </div>
-        <span class="circle circle-bottom"></span>
-      </div>
-      <div class="line line10">
-        <span class="circle circle-top"></span>
-        <div class="dotted">
-          <span class="dot dot-top"></span>
-          <span class="dot dot-middle-top"></span>
-          <span class="dot dot-middle-bottom"></span>
-          <span class="dot dot-bottom"></span>
-        </div>
-        <span class="circle circle-bottom"></span>
-      </div>
-      <div class="line line11">
-        <span class="circle circle-top"></span>
-        <div class="dotted">
-          <span class="dot dot-top"></span>
-          <span class="dot dot-middle-top"></span>
-          <span class="dot dot-middle-bottom"></span>
-          <span class="dot dot-bottom"></span>
-        </div>
-        <span class="circle circle-bottom"></span>
-      </div>
+      </div> -->
     </div>
     <!--   <div class="footer">
     <h1>Adjust the width of the browser window to make rainbow dots appear</h1>
     <h1>Adjust the height of the browser window to change the background color</h1>
   </div> -->
+    <script src="script.js"></script>
   </body>
+
   <!--   <svg class="height-arrow">
     <path class="a1" d="M0 0 L30 22 L60 0"></path>
     <path class="a2" d="M0 20 L30 42 L60 20"></path>
     <path class="a3" d="M0 40 L30 62 L60 40"></path>
   </svg> -->
-  <svg class="width-arrow">
-    <!--     <rect class="bar" x="2" y="2" width="434" height="11" fill="#97C115" data-label="Test-Label"></rect> -->
+
+  <!-- <svg class="width-arrow">
     <path class="a1" d="M0 0 L30 22 L60 0"></path>
     <path class="a2" d="M0 20 L30 42 L60 20"></path>
     <path class="a3" d="M0 40 L30 62 L60 40"></path>
     <g>
       <text>Label 1</text>
     </g>
-  </svg>
+  </svg> -->
 </html>
