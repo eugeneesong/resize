@@ -1,5 +1,9 @@
 body {
-  background-color: #1e0731;
+  background-image: url("img/fiveee.png");
+  -webkit-transition: background-image 1s ease-out;
+  -moz-transition: background-image 1s ease-out;
+  -o-transition: background-image 1s ease-out;
+  transition: background-image 1s ease-out;
 }
 
 #note {
@@ -8,7 +12,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: #dfdfdf;
+  background: #38e790;
   text-align: center;
   line-height: 2.5;
   overflow: hidden;
@@ -354,15 +358,6 @@ body {
   }
   100% {
     bottom: 0px;
-  }
-}
-@media (min-height: 50px) {
-  body {
-    background-image: url("img/fiveee.png");
-    -webkit-transition: background-image 1s ease-out;
-    -moz-transition: background-image 1s ease-out;
-    -o-transition: background-image 1s ease-out;
-    transition: background-image 1s ease-out;
   }
 }
 @media (min-height: 100px) {
