@@ -7,6 +7,8 @@ body {
 }
 
 #note {
+  font-family: "Monaco", monospace;
+  font-size: 15px;
   position: absolute;
   z-index: 101;
   top: 0;
@@ -14,7 +16,7 @@ body {
   right: 0;
   background: #38e790;
   text-align: center;
-  line-height: 2.5;
+  line-height: 3.5;
   overflow: hidden;
   -webkit-box-shadow: 0 0 5px black;
   -moz-box-shadow: 0 0 5px black;
@@ -440,6 +442,9 @@ body {
     -o-transition: background-image 1s ease-out;
     transition: background-image 1s ease-out;
   }
+  /* #note {
+    display: none;
+  } */
 }
 @media (min-height: 900px) {
   body {
@@ -493,7 +498,7 @@ body {
   transform: scale(4, 4);
 }
 .line8 {
-  margin-left: 400px;
+  margin-left: 420px;
   background-color: #38e790;
   -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
   animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
@@ -531,7 +536,7 @@ body {
   transform: scale(4, 4);
 }
 .line7 {
-  margin-left: 280px;
+  margin-left: 290px;
   background-color: #84ffc9;
   -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
   animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
@@ -606,7 +611,7 @@ body {
   transform: scale(4, 4);
 }
 .line5 {
-  margin-left: 100px;
+  margin-left: 90px;
   background-color: #b2ef91;
   -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
   animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
@@ -681,7 +686,7 @@ body {
   transform: scale(4, 4);
 }
 .line3 {
-  margin-left: -40px;
+  margin-left: -30px;
   background-color: #9bafd9;
   -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
   animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
@@ -757,6 +762,30 @@ body {
   .line9 {
     visibility: hidden;
   }
+  .song1 {
+    display: block;
+  }
+  .song2 {
+    display: block;
+  }
+  .song3 {
+    display: block;
+  }
+  .song4 {
+    display: block;
+  }
+  .song5 {
+    display: block;
+  }
+  .song6 {
+    display: block;
+  }
+  .song7 {
+    display: block;
+  }
+  .song8 {
+    display: block;
+  }
 }
 @media (max-width: 1250px) {
   .line9 {
@@ -764,6 +793,9 @@ body {
   }
   .line8 {
     visibility: hidden;
+  }
+  .song1 {
+    display: hidden;
   }
 }
 
@@ -857,7 +889,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .line9 {
     visibility: hidden;
   }
@@ -882,4 +914,8 @@ body {
   .line2 {
     visibility: hidden;
   }
+}
+
+embed {
+  visibility: hidden;
 }
